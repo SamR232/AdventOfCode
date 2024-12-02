@@ -1,0 +1,9 @@
+{
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
