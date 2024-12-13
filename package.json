@@ -1,9 +1,14 @@
 {
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
-    "typescript": "^5.3.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   },
   "scripts": {
     "build": "tsc"
+  },
+  "dependencies": {
+    "@types/graceful-fs": "^4.1.9",
+    "fs": "^0.0.1-security"
   }
 }
